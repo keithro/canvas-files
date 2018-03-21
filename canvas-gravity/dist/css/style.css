@@ -1,0 +1,18 @@
+body {
+  margin: 0;
+  position: relative;
+  font-family: 'Montserrat', sans-serif;
+}
+    
+.header {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%)
+}
+
+.header__title {
+  font-size: 126px;
+  text-transform: uppercase;
+  letter-spacing: 15px;
+}
