@@ -66,6 +66,11 @@ function rotate(velocity, angle) {
   return rotatedVelocities;
 }
 
+/* 
+ * The following functions can be found at:
+ * https://gist.github.com/christopher4lis/f9ccb589ee8ecf751481f05a8e59b1dc
+ */
+
 /**
  * Swaps out two colliding particles' x and y velocities after running through
  * an elastic collision reaction equation
